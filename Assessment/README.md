@@ -5,13 +5,11 @@ This zip file contains workflow for data acquisition, LLM-based tagging, and reg
 ## Getting Started
 
 ### Dependencies 
-
 * playwright
 * google-genai
 * statsmodels
 
 ### Executing Code
-
 * requires Google API key in config.py
 run extract.py to generate the raw files
 run LLMtag.ipynb pointing to the raw file directory with Google API key configured to generate the response files
